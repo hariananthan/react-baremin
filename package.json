@@ -1,43 +1,19 @@
-{
-  "_from": "react-baremin",
-  "_id": "react-baremin@1.0.1",
-  "_inBundle": false,
-  "_integrity": "sha512-K9OKz3nwlmp2U9CRPw7c7wFd/PsNsLC1JI1INBGs0psx0TJNn7eIvfymfhD8FJOeQLOu5txNeN6Lw99OrspoUQ==",
-  "_location": "/react-baremin",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "react-baremin",
-    "name": "react-baremin",
-    "escapedName": "react-baremin",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-baremin/-/react-baremin-1.0.1.tgz",
-  "_shasum": "d99d7361edbcda17c5b6bc7561a8bfc03f780603",
-  "_spec": "react-baremin",
-  "_where": "C:\\Users\\Hari\\Desktop\\New folder",
-  "author": {
-    "name": "hariananthan"
-  },
-  "bundleDependencies": false,
-  "dependencies": {
+{ 
+ "name": "react-baremin",
+ "version": "1.0.2",
+ "main": "index.js",  
+ "description": "The bare minimum code required to get react up and running",
+ "deprecated": false,
+ "bundleDependencies": false,
+ "dependencies": {
     "bootstrap": "^4.4.1",
     "css-loader": "^3.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "style-loader": "^1.0.1",
     "webpack-cli": "^3.3.11"
-  },
-  "deprecated": false,
-  "description": "The bare minimum code required to get react up and running",
-  "devDependencies": {
+  },  
+ "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
@@ -47,14 +23,11 @@
     "webpack": "^4.41.2",
     "webpack-dev-server": "^3.9.0"
   },
-  "files": [
-    "src",
-    ".babelrc",
-    ".gitignore",
-    ".npmignore",
-    "webpack.config.js"
-  ],
-  "keywords": [
+ "scripts": {
+    "dev": "webpack-dev-server"
+  },
+
+ "keywords": [
     "react-baremin",
     "react",
     "baremin",
@@ -64,11 +37,9 @@
     "package",
     "boilerplate"
   ],
+  
   "license": "MIT",
-  "main": "index.js",
-  "name": "react-baremin",
-  "scripts": {
-    "dev": "webpack-dev-server"
-  },
-  "version": "1.0.1"
+  "author": {
+    "name": "hariananthan"
+  }
 }
