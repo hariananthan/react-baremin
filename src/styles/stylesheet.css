@@ -1,4 +1,6 @@
-
+*{
+  box-sizing:border-box;
+}
 .app
 {
   height: 100%;
@@ -8,7 +10,8 @@
 .app-body{
   height:10rem;
   width:30rem;  
-  margin-left:49rem;
+  margin-left:40%;
+  margin-right:42%;
   margin-top:15rem;
 }
 
@@ -21,7 +24,7 @@
 }
 
 .progress{
-  margin-left:46rem;
+  margin-left:40%;
   margin-top:2rem;
   width:20%;
   text-align: center;
@@ -48,15 +51,6 @@
   animation: rotation 5s infinite linear;
 }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .overlay{   
   top: 0;
   left: 0;
@@ -80,3 +74,26 @@
   text-align: center;
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width:650px){
+  .app-body{
+    height: 10rem;
+    width: 25rem;
+    margin-left:20%;
+    margin-right:5%;
+  }
+  .overlay-display{
+    height:46%;
+  }
+  .progress-bar-2{
+    width:34%;
+  }
+}
